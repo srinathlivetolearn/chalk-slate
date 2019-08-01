@@ -2,11 +2,14 @@ package io.chalkslate.euler;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class TestSmallestMultiple {
 
     @Test
     public void testComputeSmallestMultiple() {
         int multiple = new SmallestMultiple().computeSmallestMultiple(20);
-        System.err.println(multiple);
+        assertEquals(232792560, multiple);
     }
+
 }
