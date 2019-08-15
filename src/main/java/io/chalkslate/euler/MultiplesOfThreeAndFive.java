@@ -20,4 +20,22 @@ public class MultiplesOfThreeAndFive {
         }
         return sum;
     }
+    
+    /**
+     * Using sum of nth term in A.P
+     *  Sn = n/2 * [ 2a + (n-1)d].
+     * @param range
+     * @return
+     */
+    public long findSumOfMultiplesUsingAP(int range) {
+    	long rangeOfThree = (range-1) / 3;
+    	long rangeOfFive = (range-1) /5;
+    	long rangeOfFifteen = (range-1) / (3*5);
+    	
+    	long sumOfThrees = (rangeOfThree * (6 + (rangeOfThree - 1) * 3))/2;
+    	long sumOfFives = (rangeOfFive * (10 + (rangeOfFive - 1) * 5))/2;
+    	long sumOfFifteens = (rangeOfFifteen * (30 + (rangeOfFifteen-1) * 15))/2;
+    	
+    	return (sumOfThrees + sumOfFives) - sumOfFifteens;
+    }
 }
