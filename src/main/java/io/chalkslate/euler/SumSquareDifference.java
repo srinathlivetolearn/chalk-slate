@@ -19,6 +19,7 @@ import java.util.stream.LongStream;
  * https://projecteuler.net/problem=6
  */
 public class SumSquareDifference {
+
     private long sumOfSquare = 0L;
 
     private long squareOfSum = 0L;
