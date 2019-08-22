@@ -14,7 +14,7 @@ public class InsertionSort {
         for (int i = 1; i < unsorted.length; i++) {
             int key = unsorted[i];
             int j = i - 1;
-            while (j > 0 && unsorted[j] > key) {
+            while (j >= 0 && unsorted[j] > key) {
                 unsorted[j + 1] = unsorted[j];
                 --j;
             }
