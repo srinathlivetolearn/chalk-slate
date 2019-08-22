@@ -1,16 +1,22 @@
 package io.chalkslate.algo;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class QuickSort {
+
+    private static final Logger log = LoggerFactory.getLogger(QuickSort.class);
 
     public void sort(int[] unsorted) {
         long start = System.nanoTime();
         quickSort(unsorted, 0, unsorted.length - 1);
         long elapsed = System.nanoTime() - start;
-        System.out.println("Sorted array:");
-        IntStream.of(unsorted).forEach(System.out::println);
-        System.err.println("Process took " + elapsed + "ns.");
+        String arrayString = IntStream.of(unsorted).mapToObj(Integer::toString).collect(Collectors.joining(","));
+        log.info("Sorted array: {}", arrayString);
+        log.debug("Process took " + elapsed + "ns.");
     }
 
     private void quickSort(int[] arr, int low, int high) {
