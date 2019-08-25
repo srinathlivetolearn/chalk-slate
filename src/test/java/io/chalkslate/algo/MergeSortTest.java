@@ -5,11 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class TestInsertionSort {
-    private final InsertionSort sorter = new InsertionSort();
+class MergeSortTest {
+
+    private final MergeSort sorter = new MergeSort();
 
     @Test
-    public void testSort() {
+    void sort() {
         int[] input = {67, 3, 45, 21, 82, 19};
         int[] sorted = {3, 19, 21, 45, 67, 82};
         sorter.sort(input);
@@ -27,5 +28,4 @@ public class TestInsertionSort {
             arr[i] = RandomUtils.nextInt(0, Integer.MAX_VALUE);
         return arr;
     }
-
 }
