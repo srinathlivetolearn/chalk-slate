@@ -16,7 +16,6 @@ public class TestInsertionSort {
         assertArrayEquals(sorted, input);
     }
 
-    @Test
     void sortRandomArray() {
         sorter.sort(generateRandomArrayInput(2_000_000));
     }
