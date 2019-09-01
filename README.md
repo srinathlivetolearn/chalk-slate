@@ -4,5 +4,5 @@
 ___
 
 1. It is a simple gradle project, to build and run tests,
-    `$- gradlew clean test`
+    `gradlew clean test`
 2. For jacoco coverage, `gradlew jacocoTestReport`
