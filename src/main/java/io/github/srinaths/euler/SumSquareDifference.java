@@ -1,4 +1,4 @@
-package io.chalkslate.euler;
+package io.github.srinaths.euler;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;

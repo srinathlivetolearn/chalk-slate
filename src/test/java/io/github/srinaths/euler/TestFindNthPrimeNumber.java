@@ -1,4 +1,4 @@
-package io.chalkslate.euler;
+package io.github.srinaths.euler;
 
 import static org.junit.Assert.assertEquals;
 

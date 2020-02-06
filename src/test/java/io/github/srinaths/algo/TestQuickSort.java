@@ -1,4 +1,4 @@
-package io.chalkslate.algo;
+package io.github.srinaths.algo;
 
 import org.junit.Test;
 

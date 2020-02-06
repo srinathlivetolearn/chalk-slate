@@ -1,4 +1,4 @@
-package io.chalkslate;
+package io.github.srinaths;
 
 public class Hello {
 

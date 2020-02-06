@@ -1,4 +1,4 @@
-package io.chalkslate.euler;
+package io.github.srinaths.euler;
 
 /**
  * Problem:

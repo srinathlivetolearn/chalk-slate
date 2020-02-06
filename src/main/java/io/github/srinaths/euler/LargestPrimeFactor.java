@@ -1,4 +1,4 @@
-package io.chalkslate.euler;
+package io.github.srinaths.euler;
 
 import java.time.Instant;
 import java.util.LinkedList;

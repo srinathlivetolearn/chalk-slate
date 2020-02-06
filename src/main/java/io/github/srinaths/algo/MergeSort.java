@@ -1,4 +1,4 @@
-package io.chalkslate.algo;
+package io.github.srinaths.algo;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.slf4j.Logger;
