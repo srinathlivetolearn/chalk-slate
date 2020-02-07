@@ -1,7 +1,8 @@
 # SRINATH R
 _Software professional, Bengaluru India  
-+91 776171800  
-r.srinath@live.com_
++91 7760171800  
+r.srinath@live.com_  
+-------------
 
 ### SUMMARY
 <p>I have 5 years of experience in the design, development, and deployment of secure and scalable online applications that 
